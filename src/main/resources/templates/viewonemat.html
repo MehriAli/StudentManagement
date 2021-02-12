@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Tekup absence</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bbootstrap 4 -->
+  <link rel="stylesheet" href="../plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="../plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="../plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="../plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="../plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="../plugins/summernote/summernote-bs4.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index3.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="#" class="nav-link">Contact</a>
+      </li>
+    </ul>
+
+    <!-- SEARCH FORM -->
+    <form class="form-inline ml-3">
+      <div class="input-group input-group-sm">
+        <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+        <div class="input-group-append">
+          <button class="btn btn-navbar" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Messages Dropdown Menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="far fa-comments"></i>
+          <span class="badge badge-danger navbar-badge">3</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  Brad Diesel
+                  <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">Call me whenever you can...</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  John Pierce
+                  <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">I got your message bro</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  Nora Silvester
+                  <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">The subject goes here</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+        </div>
+      </li>
+      <!-- Notifications Dropdown Menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="far fa-bell"></i>
+          <span class="badge badge-warning navbar-badge">15</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <span class="dropdown-item dropdown-header">15 Notifications</span>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-envelope mr-2"></i> 4 new messages
+            <span class="float-right text-muted text-sm">3 mins</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-users mr-2"></i> 8 friend requests
+            <span class="float-right text-muted text-sm">12 hours</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-file mr-2"></i> 3 new reports
+            <span class="float-right text-muted text-sm">2 days</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#">
+          <i class="fas fa-th-large"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="index3.html" class="brand-link">
+      <img src="../dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+           style="opacity: .8">
+      <span class="brand-text font-weight-light">Absence</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="../dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Tekup Admin </a>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+       <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+    
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-copy"></i>
+              <p>
+                Gestion Etudiant 
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a th:href="@{'/getall'}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Liste Etudiant</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a th:href="@{'/adduser'}"class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Ajouter Etudiant</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/layout/fixed-sidebar.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Fixed Sidebar</p>
+                </a>
+              </li>
+           
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-chart-pie"></i>
+              <p>
+               Gestion Absence 
+
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="pages/charts/chartjs.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>ChartJS</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/charts/flot.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Flot</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/charts/inline.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Inline</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-copy"></i>
+              <p>
+                Gestion Classe
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="pages/layout/top-nav.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Liste des classe</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/layout/boxed.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Ajouter un classe</p>
+                </a>
+              </li>
+            
+           
+            </ul>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-chart-pie"></i>
+              <p>
+               Gestion Matiére 
+
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a th:href="@{'/getallmat'}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Tous les matiére</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a th:href="@{'/getmatform'}"  class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Crée matiére</p>
+                </a>
+              </li>
+             
+          
+             
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+         <table class="table table-bordered">
+         <div  th:switch="${matiere.label}" style="float: right;
+margin-bottom: 50px;
+margin-right: 45px;">
+         
+                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/AlgoBoxLogo.svg/1200px-AlgoBoxLogo.svg.png"  th:case="'ALGO'" style="width: 90px;">
+                         <img src="https://www.konfest.com/wp-content/uploads/2019/05/Konfest-PNG-JPG-Image-Pic-Photo-Free-Download-Royalty-Unlimited-clip-art-sticker-world-wide-web-icons-website-earth-grid-globe-75.png"  th:case="'WEB'" style="width: 90px;">
+                         <img src="https://i.pinimg.com/originals/dd/37/03/dd3703c08a47b6b6ad238ebd5ea5e303.png"  th:case="'MATH'" style="width: 90px;">
+                         <img src="https://webcomicms.net/sites/default/files/clipart/175384/php-logo-png-transparent-images-175384-7037073.png"  th:case="'PHP'" style="width: 90px;">
+                         <img src="data:image/png;base64,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"  th:case="'AI'" style="width: 90px;">	
+                          <img src="https://espresso-jobs.com/conseils-carriere/wp-content/uploads/2014/04/big-data-1024x873.jpg"  th:case="'BIG DATA'" style="width: 90px;">	
+                         <img src="https://pngimage.net/wp-content/uploads/2018/05/analyse-png-1.png"  th:case="'ANALYSE'" style="width: 90px;">	
+                                           <img src="https://www.stickpng.com/assets/images/58480979cef1014c0b5e4901.png"  th:case="'JAVA'" style="width: 90px;">	
+                  
+         </div>
+         
+         
+         
+
+  <thead>
+    <tr>
+      <th scope="col">N° id</th>
+      <th scope="col">Nom  </th>
+      <th scope="col">nbr_heure</th>
+      <th scope="col">Actions</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+ <tr th:each="matiere : ${matiere}">
+      <th scope="row" th:text="${matiere.id}"></th>
+      <td th:text="${matiere.label}" ></td>
+      <td th:text="${matiere.nbr_heure}"></td>
+       <td><a role="button"  class="btn btn-danger"  th:href="@{'/delete/' + ${matiere.id}}"> <i class="fa fa-trash" aria-hidden="true"></i> </a> </td>
+      
+    </tr>
+    <tr>
+  </tbody>
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+ 
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="../plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="../plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="../plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="../plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="../plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="../plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="../plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="../plugins/moment/moment.min.js"></script>
+<script src="../plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="../plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="../plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../dist/js/adminlte.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="../dist/js/pages/dashboard.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../dist/js/demo.js"></script>
+</body>
+</html>
